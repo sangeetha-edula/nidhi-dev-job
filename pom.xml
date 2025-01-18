@@ -15,16 +15,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
-  <plugin>
-   <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-war-plugin</artifactId>
-  <version>3.1</version>
-  <configuration>
-    <failOnMissingWebXml>false</fail0nMissingWebXml>
-  </configuration>
-</plugin>
-  
+  <plugins>
+   <plugin>
+     <groupId>org.apache.maven.plugins</groupId>
+     <artifactId>maven-war-plugin</artifactId>
+     <version>3.1</version>
+   <configuration>
+     <failOnMissingWebXml>false</fail0nMissingWebXml>
+   </configuration>
+  </plugin>
+ </plugins>  
   <build>
     <finalName>01-maven-web-app</finalName>
   </build>
